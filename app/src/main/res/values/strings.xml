@@ -26,4 +26,8 @@
     <string name="_decimal">.</string>
     <string name="_add">+</string>
     <string name="_equals">=</string>
+    <string name="calculate">Calculate</string>
+    <string name="enter_the_number_of_diners">Enter the Number of Diners</string>
+    <string name="enter_the_tip_percentage">Enter the Tip Percentage</string>
+    <string name="enter_the_total_of_the_bill">Enter the Total of the Bill</string>
 </resources>

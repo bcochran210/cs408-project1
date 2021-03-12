@@ -5,26 +5,65 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/outputField2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/output_field_2"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+    <EditText
+        android:id="@+id/billTotal"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/enter_the_total_of_the_bill"
+        android:inputType="numberDecimal"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/tipPercentage"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_chainStyle="packed" />
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/tipPercentage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/enter_the_tip_percentage"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toTopOf="@+id/numPeople"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/billTotal" />
+
+    <EditText
+        android:id="@+id/numPeople"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/enter_the_number_of_diners"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/calButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tipPercentage" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:text="@string/input_button"
+        android:id="@+id/calButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/calculate"
+        app:layout_constraintBottom_toTopOf="@+id/totalDue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/numPeople" />
+
+    <TextView
+        android:id="@+id/totalDue"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:textAlignment="center"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/outputField2" />
+        app:layout_constraintTop_toBottomOf="@+id/calButton" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

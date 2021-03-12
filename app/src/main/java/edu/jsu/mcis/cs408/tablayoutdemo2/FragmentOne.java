@@ -17,7 +17,7 @@ import java.util.Arrays;
 
 public class FragmentOne extends Fragment implements TabFragment {
 
-    private final String title = "Fragment One";
+    private final String title = "Calculator";
     private TextView outputField;
     private Calculator calculator;
 

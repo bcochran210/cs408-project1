@@ -3,6 +3,7 @@ package edu.jsu.mcis.cs408.tablayoutdemo2;
 import androidx.appcompat.app.AppCompatActivity;
 
 import java.math.BigDecimal;
+import java.math.RoundingMode;
 
 public class Calculator {
 
@@ -390,7 +391,7 @@ public class Calculator {
                 inputBuffer.setLength(0);
                 inputBuffer.append(lValue);
             } else if (operator == "/") {
-                lValue = lValue.divide(rValue);
+                lValue = lValue.divide(rValue, 2, RoundingMode.HALF_UP);
                 inputBuffer.setLength(0);
                 inputBuffer.append(lValue);
             } else if (operator == "%") {
