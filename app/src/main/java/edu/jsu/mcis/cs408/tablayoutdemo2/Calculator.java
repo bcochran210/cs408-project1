@@ -6,7 +6,7 @@ import java.math.BigDecimal;
 
 public class Calculator {
 
-    private AppCompatActivity parent;
+    private FragmentOne parent;
 
     private BigDecimal lValue;
     private BigDecimal rValue;
@@ -19,9 +19,9 @@ public class Calculator {
     private boolean accumulate = false;
 
 
-    public Calculator (AppCompatActivity parent) {
+    public Calculator (FragmentOne parent) {
 
-        AppCompatActivity _parent;
+        //FragmentOne parent;
 
         this.parent = parent;
 
