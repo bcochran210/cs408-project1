@@ -5,4 +5,25 @@
     <string name="output_text_1">Hello, World! (Fragment One)</string>
     <string name="output_text_2">Hello, World! (Fragment Two)</string>
     <string name="input_button">Click Me!</string>
+    <string name="_display">0</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_5">5</string>
+    <string name="_4">4</string>
+    <string name="_sqrRoot">√</string>
+    <string name="_clear">C</string>
+    <string name="_9">9</string>
+    <string name="_6">6</string>
+    <string name="_divide">÷</string>
+    <string name="_modulus">%</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_multiply">×</string>
+    <string name="_subtract">-</string>
+    <string name="_negate">±</string>
+    <string name="_0">0</string>
+    <string name="_decimal">.</string>
+    <string name="_add">+</string>
+    <string name="_equals">=</string>
 </resources>
