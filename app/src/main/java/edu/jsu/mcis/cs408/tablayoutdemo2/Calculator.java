@@ -196,7 +196,7 @@ public class Calculator {
                 } else if (operator == "*") {
                     lValue = lValue.multiply(rValue);
                 } else if (operator == "/") {
-                    lValue = lValue.divide(rValue);
+                    lValue = lValue.divide(rValue, 2, RoundingMode.HALF_UP);
                 } else if (operator == "%") {
                     lValue = lValue.remainder(rValue);
                 }
@@ -235,7 +235,7 @@ public class Calculator {
                 } else if (operator == "*") {
                     lValue = lValue.multiply(rValue);
                 } else if (operator == "/") {
-                    lValue = lValue.divide(rValue);
+                    lValue = lValue.divide(rValue, 2, RoundingMode.HALF_UP);
                 } else if (operator == "%") {
                     lValue = lValue.remainder(rValue);
                 }
@@ -275,7 +275,7 @@ public class Calculator {
                 } else if (operator == "*") {
                     lValue = lValue.multiply(rValue);
                 } else if (operator == "/") {
-                    lValue = lValue.divide(rValue);
+                    lValue = lValue.divide(rValue, 2, RoundingMode.HALF_UP);
                 } else if (operator == "%") {
                     lValue = lValue.remainder(rValue);
                 }
@@ -315,7 +315,7 @@ public class Calculator {
                 } else if (operator == "*") {
                     lValue = lValue.multiply(rValue);
                 } else if (operator == "/") {
-                    lValue = lValue.divide(rValue);
+                    lValue = lValue.divide(rValue, 2, RoundingMode.HALF_UP);
                 } else if (operator == "%") {
                     lValue = lValue.remainder(rValue);
                 }
@@ -354,7 +354,7 @@ public class Calculator {
                 } else if (operator == "*") {
                     lValue = lValue.multiply(rValue);
                 } else if (operator == "/") {
-                    lValue = lValue.divide(rValue);
+                    lValue = lValue.divide(rValue, 2, RoundingMode.HALF_UP);
                 } else if (operator == "%") {
                     lValue = lValue.remainder(rValue);
                 }
