@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">CS450 - Project 1</string>
+    <string name="app_name">CS408 - Project 1</string>
     <string name="output_field_1">Output Field (Fragment One)</string>
     <string name="output_field_2">Output Field (Fragment Two)</string>
     <string name="output_text_1">Hello, World! (Fragment One)</string>
